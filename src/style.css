@@ -1,13 +1,15 @@
 .H1,H2,H3,H4,H5,H6{
-    background-color:rgb(182, 182, 182);
-    color: rgb(0, 0, 0);
+    background-color:mediumseagreen;
+    color: rgb(58, 5, 250);
     padding-top: 5px;
     padding-bottom: 5px;
     text-align:center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .text{
-    background-color: dimgrey;
+    background-color: rgb(136, 255, 0);
+    border: 10px  rgb(70, 69, 69);
+    border-style: double solid none;
     padding-top: 20px;
     padding-left: 10px;
     padding-right: 10px;

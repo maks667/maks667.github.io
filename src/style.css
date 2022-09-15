@@ -20,6 +20,65 @@
 .P{
     background-color: yellow;
 }
+.container{
+    width: 80%;
+    margin:0 auto;
+}
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.logo{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    float: left;
+}
+.main-nav{
+    margin-left: 50px;
+    float: left;
+    display: block;
+}
+.main-nav a{
+    text-transform: uppercase;
+    color: black;
+    
+    font-size: 45px;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 150px;
+    padding-top:50px;
+}
+.main-nav a:hover{
+    color: red;
+    padding-bottom: 25px;
+}
+
+.contacts{
+    float: right;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.contacts span{
+    display: block;
+    margin-right: 50px;
+    padding-top: 10px;
+    
+}
+.contacts span img{
+    display: table ;
+    float: left;
+    
+}
+
+.contacts span a{
+    text-decoration: none;
+    color: black;
+    padding-left: 20px;
+}
 body{
     display: block;
     margin: 0px;

@@ -20,3 +20,7 @@
 .P{
     background-color: yellow;
 }
+body{
+    display: block;
+    margin: 0px;
+}
